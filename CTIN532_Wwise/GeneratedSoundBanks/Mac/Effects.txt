@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	889600460	Computer_startup			\Default Work Unit\Computer_startup	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	878457488	Computer_8bit	F:\School\USC\CTIN 532\GitHub\CTIN532_WwiseProject\CTIN532_Wwise\.cache\Mac\SFX\Computer_8bit_B0F8BA02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Computer_8bit		144682
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footsteps" ID="{D2C1E97F-640E-4FCD-B856-7DFB40811855}">
+					<ChildrenList>
+						<Action Name="" ID="{7975EEE0-003A-4BA3-8741-118476040254}" ShortID="298266451">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{96D2B2C7-EA60-431C-A8D2-89302170AD3C}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Computer_startup" ID="{34499030-E6AD-4306-8CC2-5B5B17DAB38A}">
+					<ChildrenList>
+						<Action Name="" ID="{1189D2D8-BE15-4CDA-A25C-01ACDA9E5497}" ShortID="1034234968">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Computer_8bit" ID="{DA01F5A4-0F79-488F-9275-38F9C9047F6A}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Room" ID="{AC5CC2C4-91CD-4A08-A154-53B1E6A3779A}">
+					<ChildrenList>
+						<Action Name="" ID="{D53A5B17-1AF8-433F-BE5D-1DF23548183F}" ShortID="48292058">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HeatVent" ID="{B245F91A-CEE0-47D6-BFD0-AF48F4325BA0}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{00BAFC46-53E9-41F3-A464-4B922EDBBAB5}" ShortID="173189804">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RoomTone" ID="{D875BF80-2B90-4DD1-9EE6-245C0524338D}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{49F3E0D6-092E-47A4-8C62-C09D802C0D74}" ShortID="436472300">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hvac" ID="{4DFC2013-8318-4845-87A8-F8764E08F826}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
