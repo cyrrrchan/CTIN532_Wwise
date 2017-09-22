@@ -13,12 +13,17 @@
 				<SoundBank Name="Effects" ID="{0D85B32D-890D-43FE-B20F-E0C413126E60}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Computer_startup" ID="{34499030-E6AD-4306-8CC2-5B5B17DAB38A}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Success" ID="{A778DAD9-B74F-4312-8CC4-9F1CA2EF9979}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Charging" ID="{E4D9BD27-5EE5-4DFE-9BE4-DD63349C509C}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Charging_Pause" ID="{366D1289-29A6-4ED9-8743-CB83A5AFF310}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Footsteps" ID="{7A653833-BB06-44CF-A556-9FF4E7DBA008}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Landing" ID="{4C87D99D-606E-4032-8E61-A0F21645E9A4}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Jump" ID="{76AC0F28-33B4-4085-BE6F-89B80BC71CD2}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Footsteps" ID="{D2C1E97F-640E-4FCD-B856-7DFB40811855}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

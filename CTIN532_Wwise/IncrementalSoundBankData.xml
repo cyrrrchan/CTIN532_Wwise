@@ -4,14 +4,14 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Ambience" Hash="525193648" Timestamp="131503644854135728"/>
-				<File Name="Effects" Hash="3589657717" Timestamp="131503648599307837"/>
-				<File Name="Footsteps" Hash="1144354743" Timestamp="131503648599433444"/>
+				<File Name="Effects" Hash="2136699548" Timestamp="131505768189229047"/>
+				<File Name="Footsteps" Hash="1077199199" Timestamp="131505730400993258"/>
 				<File Name="Init" Hash="580030591" Timestamp="131503644440369451"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3398002135" Timestamp="131503648599547840"/>
+				<File Name="" Hash="4005384534" Timestamp="131505768189319037"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -19,14 +19,14 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Ambience" Hash="525193648" Timestamp="131503644957310261"/>
-				<File Name="Effects" Hash="3589657717" Timestamp="131503648600079918"/>
-				<File Name="Footsteps" Hash="1144354743" Timestamp="131503648600210274"/>
+				<File Name="Effects" Hash="2136699548" Timestamp="131505768190191415"/>
+				<File Name="Footsteps" Hash="1077199199" Timestamp="131505730402719068"/>
 				<File Name="Init" Hash="2403855257" Timestamp="131503644540568386"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1407384429" Timestamp="131503648600345623"/>
+				<File Name="" Hash="1813066500" Timestamp="131505768190291741"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

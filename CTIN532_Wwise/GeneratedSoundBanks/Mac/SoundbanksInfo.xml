@@ -43,12 +43,23 @@
 			<ShortName>Effects</ShortName>
 			<Path>Effects.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3828622232" Name="Charging" ObjectPath="\Events\Default Work Unit\Charging"/>
+				<Event Id="3111569007" Name="Charging_Pause" ObjectPath="\Events\Default Work Unit\Charging_Pause" MaxAttenuation="0.000000"/>
 				<Event Id="889600460" Name="Computer_startup" ObjectPath="\Events\Default Work Unit\Computer_startup"/>
+				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\Success"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="536370990" Language="SFX">
+					<ShortName>Success.wav</ShortName>
+					<Path>SFX\Success_1C9C67B2.wem</Path>
+				</File>
 				<File Id="878457488" Language="SFX">
 					<ShortName>Computer_8bit.wav</ShortName>
 					<Path>SFX\Computer_8bit_B0F8BA02.wem</Path>
+				</File>
+				<File Id="906311439" Language="SFX">
+					<ShortName>RISE_100.wav</ShortName>
+					<Path>SFX\RISE_100_4CFAD411.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -58,6 +69,8 @@
 			<Path>Footsteps.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump"/>
+				<Event Id="2548270042" Name="Landing" ObjectPath="\Events\Default Work Unit\Landing"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="112455662" Language="SFX">

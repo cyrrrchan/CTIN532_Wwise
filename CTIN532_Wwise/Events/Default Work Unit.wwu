@@ -65,6 +65,107 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Jump" ID="{76AC0F28-33B4-4085-BE6F-89B80BC71CD2}">
+					<ChildrenList>
+						<Action Name="" ID="{454B7585-9CED-4C4B-AF2B-BF174126B07F}" ShortID="55759832">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps_Jump" ID="{B936DA6F-AFE2-430B-BBEE-2507E5FBC26B}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{79690F7E-CDB3-428E-9C9E-F0B11D29F7C5}" ShortID="23286040">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{96D2B2C7-EA60-431C-A8D2-89302170AD3C}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Landing" ID="{4C87D99D-606E-4032-8E61-A0F21645E9A4}">
+					<ChildrenList>
+						<Action Name="" ID="{5D4EB478-B82E-4768-B514-0B7CEA0F8340}" ShortID="74901302">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps_Landing" ID="{DFD69E4C-0063-4049-8747-1AA0E6EE7F57}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4B65B63F-FC17-4649-819F-C3EFD024ECB6}" ShortID="195532272">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{96D2B2C7-EA60-431C-A8D2-89302170AD3C}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Charging" ID="{E4D9BD27-5EE5-4DFE-9BE4-DD63349C509C}">
+					<ChildrenList>
+						<Action Name="" ID="{33AD4067-7F41-4AE9-BE1E-09D48766B7F5}" ShortID="548067679">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RISE_100" ID="{EBA850A7-05D3-4BD2-9557-91BD6E54631D}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Charging_Pause" ID="{366D1289-29A6-4ED9-8743-CB83A5AFF310}">
+					<ChildrenList>
+						<Action Name="" ID="{CDEADA0D-160C-49BE-86EA-23C55BA174A1}" ShortID="235532417">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RISE_100" ID="{EBA850A7-05D3-4BD2-9557-91BD6E54631D}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Success" ID="{A778DAD9-B74F-4312-8CC4-9F1CA2EF9979}">
+					<ChildrenList>
+						<Action Name="" ID="{C31A187B-8EEE-40C6-AD64-A65915E872ED}" ShortID="372197129">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Success" ID="{02A2598C-353F-453E-BB26-B07889A37410}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{126D22E9-B7A2-4FAE-81A7-45F6FE77E290}" ShortID="870828031">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RISE_100" ID="{EBA850A7-05D3-4BD2-9557-91BD6E54631D}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
