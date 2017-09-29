@@ -166,6 +166,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Charging_Stop" ID="{BF3293E6-F4EE-49FE-AAEF-97D84B7133EA}">
+					<ChildrenList>
+						<Action Name="" ID="{D13BAB07-7365-4EAB-9A63-1B68FD914BED}" ShortID="289297818">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RISE_100" ID="{EBA850A7-05D3-4BD2-9557-91BD6E54631D}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

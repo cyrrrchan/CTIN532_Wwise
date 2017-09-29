@@ -3,30 +3,30 @@
 	<Platform GUID="{15055DC0-08EA-4543-A775-699656B8EF57}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Ambience" Hash="525193648" Timestamp="131503644854135728"/>
-				<File Name="Effects" Hash="2136699548" Timestamp="131505768189229047"/>
-				<File Name="Footsteps" Hash="1077199199" Timestamp="131505730400993258"/>
-				<File Name="Init" Hash="580030591" Timestamp="131503644440369451"/>
+				<File Name="Ambience" Hash="1978453144" Timestamp="131511372881422440"/>
+				<File Name="Effects" Hash="2562371683" Timestamp="131511369306453441"/>
+				<File Name="Footsteps" Hash="3727015415" Timestamp="131511344146036584"/>
+				<File Name="Init" Hash="580030591" Timestamp="131511344146141285"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="4005384534" Timestamp="131505768189319037"/>
+				<File Name="" Hash="596165671" Timestamp="131511372881573090"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{BD52FE50-EBCC-4FBC-A0A5-46622CC30E21}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Ambience" Hash="525193648" Timestamp="131503644957310261"/>
-				<File Name="Effects" Hash="2136699548" Timestamp="131505768190191415"/>
-				<File Name="Footsteps" Hash="1077199199" Timestamp="131505730402719068"/>
-				<File Name="Init" Hash="2403855257" Timestamp="131503644540568386"/>
+				<File Name="Ambience" Hash="1978453144" Timestamp="131511372883748636"/>
+				<File Name="Effects" Hash="2562371683" Timestamp="131511369307528054"/>
+				<File Name="Footsteps" Hash="3727015415" Timestamp="131511344247306172"/>
+				<File Name="Init" Hash="2403855257" Timestamp="131511344247515461"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1813066500" Timestamp="131505768190291741"/>
+				<File Name="" Hash="1414250665" Timestamp="131511372883963033"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

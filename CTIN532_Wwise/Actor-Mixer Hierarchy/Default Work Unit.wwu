@@ -208,7 +208,6 @@
 				<Sound Name="HeatVent" ID="{B245F91A-CEE0-47D6-BFD0-AF48F4325BA0}" ShortID="873823577">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-12</Value>
@@ -236,7 +235,6 @@
 				<Sound Name="RoomTone" ID="{D875BF80-2B90-4DD1-9EE6-245C0524338D}" ShortID="708577974">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -259,7 +257,6 @@
 				<Sound Name="Hvac" ID="{4DFC2013-8318-4845-87A8-F8764E08F826}" ShortID="665343513">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-13</Value>

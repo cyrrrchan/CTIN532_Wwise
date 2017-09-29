@@ -14,6 +14,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Computer_startup" ID="{34499030-E6AD-4306-8CC2-5B5B17DAB38A}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Success" ID="{A778DAD9-B74F-4312-8CC4-9F1CA2EF9979}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Charging_Stop" ID="{BF3293E6-F4EE-49FE-AAEF-97D84B7133EA}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging" ID="{E4D9BD27-5EE5-4DFE-9BE4-DD63349C509C}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging_Pause" ID="{366D1289-29A6-4ED9-8743-CB83A5AFF310}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
