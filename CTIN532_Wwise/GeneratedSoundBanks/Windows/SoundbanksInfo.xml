@@ -48,6 +48,9 @@
 				<Event Id="164228631" Name="Charging_Stop" ObjectPath="\Events\Default Work Unit\Charging_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="889600460" Name="Computer_startup" ObjectPath="\Events\Default Work Unit\Computer_startup"/>
 				<Event Id="3117861378" Name="Ending_VO" ObjectPath="\Events\Default Work Unit\Ending_VO"/>
+				<Event Id="3794852078" Name="EyeScan_Done" ObjectPath="\Events\Default Work Unit\EyeScan_Done"/>
+				<Event Id="964212030" Name="EyeScan_Start" ObjectPath="\Events\Default Work Unit\EyeScan_Start"/>
+				<Event Id="2908058974" Name="EyeScan_Stop" ObjectPath="\Events\Default Work Unit\EyeScan_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="2789119461" Name="Hum_VO" ObjectPath="\Events\Default Work Unit\Hum_VO"/>
 				<Event Id="2737701265" Name="Intro_VO" ObjectPath="\Events\Default Work Unit\Intro_VO"/>
 				<Event Id="3314038558" Name="Outage_VO" ObjectPath="\Events\Default Work Unit\Outage_VO"/>
@@ -58,6 +61,10 @@
 				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\Success"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="75284863" Language="SFX">
+					<ShortName>eyeScan1.wav</ShortName>
+					<Path>SFX\eyeScan1_1C9C67B2.wem</Path>
+				</File>
 				<File Id="117513221" Language="SFX">
 					<ShortName>Seven.wav</ShortName>
 					<Path>SFX\Seven_1C9C67B2.wem</Path>
@@ -97,6 +104,10 @@
 				<File Id="878457488" Language="SFX">
 					<ShortName>Computer_8bit.wav</ShortName>
 					<Path>SFX\Computer_8bit_B0F8BA02.wem</Path>
+				</File>
+				<File Id="892572012" Language="SFX">
+					<ShortName>eyeScan0.wav</ShortName>
+					<Path>SFX\eyeScan0_1C9C67B2.wem</Path>
 				</File>
 				<File Id="906311439" Language="SFX">
 					<ShortName>RISE_100.wav</ShortName>

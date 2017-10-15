@@ -13,14 +13,17 @@
 				<SoundBank Name="Effects" ID="{0D85B32D-890D-43FE-B20F-E0C413126E60}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Ending_VO" ID="{B3ACF358-2091-40CB-9D16-947F2ECF97C4}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EyeScan_Start" ID="{A371DDCA-7383-424A-802B-044B39F062C3}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Room1_VO" ID="{BBA7F133-4BFD-424D-B0AA-3DC6B8BD916A}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Computer_startup" ID="{34499030-E6AD-4306-8CC2-5B5B17DAB38A}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Success" ID="{A778DAD9-B74F-4312-8CC4-9F1CA2EF9979}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EyeScan_Done" ID="{1CC96690-FF46-4323-B7A8-2238983A1F7F}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Outage_VO" ID="{86F4EECE-86F8-46DC-929D-1F95B9452BD7}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Scan_VO" ID="{C869DDB2-1931-47A7-B8A5-D60F375C4BEA}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Hum_VO" ID="{D416320A-4A98-495A-8207-1093326F2AAA}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging_Stop" ID="{BF3293E6-F4EE-49FE-AAEF-97D84B7133EA}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Intro_VO" ID="{D4E25790-97B1-4A34-9F18-A47C3B0D6B7D}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EyeScan_Stop" ID="{394867C2-ED16-4A3E-9EEA-E6DEE437072B}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Room3_VO" ID="{FAC0EEAA-3C49-4B48-83CE-9BF75A747997}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Room2_VO" ID="{6E4D362C-602C-4C55-ADF7-EC1918093F10}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging" ID="{E4D9BD27-5EE5-4DFE-9BE4-DD63349C509C}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>

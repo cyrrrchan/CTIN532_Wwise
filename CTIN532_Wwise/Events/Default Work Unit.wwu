@@ -292,6 +292,70 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="EyeScan_Start" ID="{A371DDCA-7383-424A-802B-044B39F062C3}">
+					<ChildrenList>
+						<Action Name="" ID="{36048CA7-C1DA-48F0-A44D-DBBB79AADDC4}" ShortID="429395036">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="eyeScan0" ID="{D595B5D5-17E3-4215-9DCB-FBF64827C0C8}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EyeScan_Done" ID="{1CC96690-FF46-4323-B7A8-2238983A1F7F}">
+					<ChildrenList>
+						<Action Name="" ID="{DA65F36B-A745-4E07-82AD-C42ABB85CA22}" ShortID="36711400">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="eyeScan1" ID="{CCE04ADF-84D7-48B8-BFF7-253216C4BCDC}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7ABD8398-29C0-4C41-AB11-690C5FE6BEEF}" ShortID="295834664">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Success" ID="{02A2598C-353F-453E-BB26-B07889A37410}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4DBA5084-A8A1-42D8-A197-D943DE94D6F3}" ShortID="978964466">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeCurve" Type="int16" Value="0"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="eyeScan0" ID="{D595B5D5-17E3-4215-9DCB-FBF64827C0C8}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EyeScan_Stop" ID="{394867C2-ED16-4A3E-9EEA-E6DEE437072B}">
+					<ChildrenList>
+						<Action Name="" ID="{0404A9C5-E943-4248-8E37-1D79CCFBC2A1}" ShortID="833291217">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="eyeScan0" ID="{D595B5D5-17E3-4215-9DCB-FBF64827C0C8}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
