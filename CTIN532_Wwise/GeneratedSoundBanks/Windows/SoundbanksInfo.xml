@@ -33,6 +33,33 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="543694047" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\VOs</ObjectPath>
+			<ShortName>VOs</ShortName>
+			<Path>VOs.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1011784067" Name="VO_HumIntro" ObjectPath="\Events\Default Work Unit\VO_HumIntro"/>
+				<Event Id="3234679781" Name="VO_Welcome" ObjectPath="\Events\Default Work Unit\VO_Welcome"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="166131356" Language="SFX">
+					<ShortName>VO_eyeScan.wav</ShortName>
+					<Path>SFX\VO_eyeScan_1C9C67B2.wem</Path>
+				</File>
+				<File Id="357555149" Language="SFX">
+					<ShortName>VO_humIntro.wav</ShortName>
+					<Path>SFX\VO_humIntro_1C9C67B2.wem</Path>
+				</File>
+				<File Id="724181308" Language="SFX">
+					<ShortName>VO_humIntro2.wav</ShortName>
+					<Path>SFX\VO_humIntro2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="803865876" Language="SFX">
+					<ShortName>VO_welcome.wav</ShortName>
+					<Path>SFX\VO_welcome_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -46,18 +73,9 @@
 				<Event Id="3828622232" Name="Charging" ObjectPath="\Events\Default Work Unit\Charging"/>
 				<Event Id="3111569007" Name="Charging_Pause" ObjectPath="\Events\Default Work Unit\Charging_Pause" MaxAttenuation="0.000000"/>
 				<Event Id="164228631" Name="Charging_Stop" ObjectPath="\Events\Default Work Unit\Charging_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="889600460" Name="Computer_startup" ObjectPath="\Events\Default Work Unit\Computer_startup"/>
-				<Event Id="3117861378" Name="Ending_VO" ObjectPath="\Events\Default Work Unit\Ending_VO"/>
 				<Event Id="3794852078" Name="EyeScan_Done" ObjectPath="\Events\Default Work Unit\EyeScan_Done"/>
 				<Event Id="964212030" Name="EyeScan_Start" ObjectPath="\Events\Default Work Unit\EyeScan_Start"/>
 				<Event Id="2908058974" Name="EyeScan_Stop" ObjectPath="\Events\Default Work Unit\EyeScan_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="2789119461" Name="Hum_VO" ObjectPath="\Events\Default Work Unit\Hum_VO"/>
-				<Event Id="2737701265" Name="Intro_VO" ObjectPath="\Events\Default Work Unit\Intro_VO"/>
-				<Event Id="3314038558" Name="Outage_VO" ObjectPath="\Events\Default Work Unit\Outage_VO"/>
-				<Event Id="4270548401" Name="Room1_VO" ObjectPath="\Events\Default Work Unit\Room1_VO"/>
-				<Event Id="1561562992" Name="Room2_VO" ObjectPath="\Events\Default Work Unit\Room2_VO"/>
-				<Event Id="3606975451" Name="Room3_VO" ObjectPath="\Events\Default Work Unit\Room3_VO"/>
-				<Event Id="2032329656" Name="Scan_VO" ObjectPath="\Events\Default Work Unit\Scan_VO"/>
 				<Event Id="3625060726" Name="Success" ObjectPath="\Events\Default Work Unit\Success"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -65,45 +83,9 @@
 					<ShortName>eyeScan1.wav</ShortName>
 					<Path>SFX\eyeScan1_1C9C67B2.wem</Path>
 				</File>
-				<File Id="117513221" Language="SFX">
-					<ShortName>Seven.wav</ShortName>
-					<Path>SFX\Seven_1C9C67B2.wem</Path>
-				</File>
-				<File Id="133398472" Language="SFX">
-					<ShortName>Five.wav</ShortName>
-					<Path>SFX\Five_1C9C67B2.wem</Path>
-				</File>
-				<File Id="250632453" Language="SFX">
-					<ShortName>Six.wav</ShortName>
-					<Path>SFX\Six_1C9C67B2.wem</Path>
-				</File>
-				<File Id="317087187" Language="SFX">
-					<ShortName>One.wav</ShortName>
-					<Path>SFX\One_1C9C67B2.wem</Path>
-				</File>
 				<File Id="536370990" Language="SFX">
 					<ShortName>Success.wav</ShortName>
 					<Path>SFX\Success_1C9C67B2.wem</Path>
-				</File>
-				<File Id="544186677" Language="SFX">
-					<ShortName>Two.wav</ShortName>
-					<Path>SFX\Two_1C9C67B2.wem</Path>
-				</File>
-				<File Id="619944527" Language="SFX">
-					<ShortName>Eight.wav</ShortName>
-					<Path>SFX\Eight_1C9C67B2.wem</Path>
-				</File>
-				<File Id="712441621" Language="SFX">
-					<ShortName>Three.wav</ShortName>
-					<Path>SFX\Three_1C9C67B2.wem</Path>
-				</File>
-				<File Id="721181374" Language="SFX">
-					<ShortName>Four.wav</ShortName>
-					<Path>SFX\Four_1C9C67B2.wem</Path>
-				</File>
-				<File Id="878457488" Language="SFX">
-					<ShortName>Computer_8bit.wav</ShortName>
-					<Path>SFX\Computer_8bit_B0F8BA02.wem</Path>
 				</File>
 				<File Id="892572012" Language="SFX">
 					<ShortName>eyeScan0.wav</ShortName>
