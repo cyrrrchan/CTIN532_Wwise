@@ -259,6 +259,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PowerOutage" ID="{2CDEE171-1267-45D4-85A8-058B0D539E26}">
+					<ChildrenList>
+						<Action Name="" ID="{17AFE306-BA0F-47BE-BEFA-91E79EECA501}" ShortID="937337761">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="powerOutage" ID="{5D797D8C-BCE3-439B-B687-7C47B25CA948}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

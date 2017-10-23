@@ -844,6 +844,32 @@
 						<ItemRef Name="VO_humIntro2" ID="{CE0EFA32-1949-43EB-B961-B0FBD352AB32}"/>
 					</Playlist>
 				</RandomSequenceContainer>
+				<Sound Name="powerOutage" ID="{5D797D8C-BCE3-439B-B687-7C47B25CA948}" ShortID="469025543">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="powerOutage" ID="{82919F51-27FC-45ED-A50C-0F5E74D06F09}" ShortID="337457353">
+							<Language>SFX</Language>
+							<AudioFile>powerOutage.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="powerOutage" ID="{82919F51-27FC-45ED-A50C-0F5E74D06F09}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
