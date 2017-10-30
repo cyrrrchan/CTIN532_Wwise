@@ -35,8 +35,19 @@
 				</SoundBank>
 				<SoundBank Name="VOs" ID="{0CA8C076-7944-4E74-81B6-5D6BC239DE0F}">
 					<ObjectInclusionList>
+						<ObjectRef Name="VO_PowerOutage" ID="{0FB45EB4-E8E3-4058-8FE4-0D3B04B2B576}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_WaitingRoom1" ID="{EB477A4D-86F6-4146-8159-DB0E361CB7ED}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_Welcome" ID="{928907EC-C43D-422E-BC33-89DBC35295E9}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_WaitingRoom1_2" ID="{E0339C31-F8DE-4330-AFF6-937819606940}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_WaitingRoom2_2" ID="{A35134DE-BD15-4367-97D2-DB23CBEFC389}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_EyeScan" ID="{C071FBF6-1B32-4665-ABC9-8879F9237BD0}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_WaitingRoom2" ID="{23DB5947-D817-4820-97CC-FE535DE2A346}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_DoorOpen" ID="{5AC06B01-F52B-499D-80E8-7F613FE1981A}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_HumIntro" ID="{51A8AE50-33EA-4ACA-A500-559EEDB83285}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_NewInstructions" ID="{EA79303B-A66B-4B5D-8D78-CF0BD83C0386}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_PlayerDeath" ID="{6E29B305-1D54-4B89-9BC4-CDD0DD8B6AD1}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_NewInstructionsOpt" ID="{527FD8B4-73CC-4C8E-84F1-2C43863AC7BE}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="VO_HumDoor" ID="{1AA1A771-C58C-4E4E-9826-15850769ED95}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

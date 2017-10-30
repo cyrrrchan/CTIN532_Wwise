@@ -7,12 +7,12 @@
 				<File Name="Effects" Hash="297174356" Timestamp="131532352461539212"/>
 				<File Name="Footsteps" Hash="3727015415" Timestamp="131511344146036584"/>
 				<File Name="Init" Hash="580030591" Timestamp="131511344146141285"/>
-				<File Name="VOs" Hash="343280670" Timestamp="131529548984562637"/>
+				<File Name="VOs" Hash="4239196064" Timestamp="131538165402442730"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2413171676" Timestamp="131532352461638731"/>
+				<File Name="" Hash="3204670100" Timestamp="131538165402622334"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -23,12 +23,12 @@
 				<File Name="Effects" Hash="297174356" Timestamp="131532352462464351"/>
 				<File Name="Footsteps" Hash="3727015415" Timestamp="131511344247306172"/>
 				<File Name="Init" Hash="2403855257" Timestamp="131511344247515461"/>
-				<File Name="VOs" Hash="343280670" Timestamp="131529548985115618"/>
+				<File Name="VOs" Hash="4239196064" Timestamp="131538165405989312"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2494683190" Timestamp="131532352462539553"/>
+				<File Name="" Hash="768218206" Timestamp="131538165406100560"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

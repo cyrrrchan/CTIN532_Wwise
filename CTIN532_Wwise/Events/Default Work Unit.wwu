@@ -235,7 +235,6 @@
 						<Action Name="" ID="{A20C8E9C-AD82-4D8C-8073-ADA1DC06D935}" ShortID="997443949">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="3"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -268,6 +267,160 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="powerOutage" ID="{5D797D8C-BCE3-439B-B687-7C47B25CA948}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_EyeScan" ID="{C071FBF6-1B32-4665-ABC9-8879F9237BD0}">
+					<ChildrenList>
+						<Action Name="" ID="{2E497B76-1DCB-4381-8AFC-936A2D31102C}" ShortID="474279598">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_eyeScan2" ID="{6D88F219-BB67-4D37-ABF0-18704A2C011C}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_HumDoor" ID="{1AA1A771-C58C-4E4E-9826-15850769ED95}">
+					<ChildrenList>
+						<Action Name="" ID="{6044F574-2D74-4337-BA2E-81EEC0E66FCD}" ShortID="697947425">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_humIntro3" ID="{77EBA619-BD59-4274-A205-255C74F9328C}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_DoorOpen" ID="{5AC06B01-F52B-499D-80E8-7F613FE1981A}">
+					<ChildrenList>
+						<Action Name="" ID="{CDD4FA37-1EA5-4C7C-ADA6-276E30ED0ECE}" ShortID="1057905278">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_doorOpen" ID="{9C6C3687-43D6-4D1B-9953-FAA46C8525EA}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_PowerOutage" ID="{0FB45EB4-E8E3-4058-8FE4-0D3B04B2B576}">
+					<ChildrenList>
+						<Action Name="" ID="{8BE7E77F-513F-4473-9F67-1A45F72116EE}" ShortID="896811777">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_powerOutage" ID="{07D52532-C62D-4272-95A8-C00D304A66B3}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_NewInstructions" ID="{EA79303B-A66B-4B5D-8D78-CF0BD83C0386}">
+					<ChildrenList>
+						<Action Name="" ID="{8757A843-943F-4BF3-9C71-3BACB345DCAB}" ShortID="951569852">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_newInstructions" ID="{DF259619-EE03-476F-8F06-D2BE1C125288}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_NewInstructionsOpt" ID="{527FD8B4-73CC-4C8E-84F1-2C43863AC7BE}">
+					<ChildrenList>
+						<Action Name="" ID="{1075E09D-56F7-476E-8EF8-C2A1755DFFAA}" ShortID="532645852">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_newInstructionsOpt" ID="{183101C3-939E-4FFA-9306-67AF6534647E}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_WaitingRoom1" ID="{EB477A4D-86F6-4146-8159-DB0E361CB7ED}">
+					<ChildrenList>
+						<Action Name="" ID="{A3F9561A-245C-403A-8FD0-C6C5D35C1B33}" ShortID="54649501">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_waitingRoom1" ID="{096F8BB4-3A44-4B27-95D8-2A77D801C2FD}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_WaitingRoom1_2" ID="{E0339C31-F8DE-4330-AFF6-937819606940}">
+					<ChildrenList>
+						<Action Name="" ID="{942AA3B9-C63F-4750-88CE-25906BE358B0}" ShortID="740936998">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_waitingRoom1_2" ID="{33D44AB4-43F9-40DA-9A5D-4E6933643DBC}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_WaitingRoom2" ID="{23DB5947-D817-4820-97CC-FE535DE2A346}">
+					<ChildrenList>
+						<Action Name="" ID="{4A373BC7-6822-4969-9296-B0049687FE11}" ShortID="269944047">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_waitingRoom2" ID="{A8E76ECB-AF69-497B-9586-A83A54D22229}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_WaitingRoom2_2" ID="{A35134DE-BD15-4367-97D2-DB23CBEFC389}">
+					<ChildrenList>
+						<Action Name="" ID="{DEE3499E-3EA6-4869-B774-76082DF8C95A}" ShortID="253957379">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_waitingRoom2_2" ID="{CA333209-6A24-4F84-AF6D-74B4D4112F5E}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_PlayerDeath" ID="{6E29B305-1D54-4B89-9BC4-CDD0DD8B6AD1}">
+					<ChildrenList>
+						<Action Name="" ID="{6A445E5B-C4D4-4E1B-AECA-51D015AC1ECA}" ShortID="977008707">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_playerDeath" ID="{775C4650-0678-4944-8BE0-809A530D51C8}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
