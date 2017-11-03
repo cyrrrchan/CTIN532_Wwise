@@ -691,9 +691,13 @@
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -773,9 +777,13 @@
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -875,6 +883,7 @@
 				</Sound>
 				<Sound Name="VO_eyeScan2" ID="{6D88F219-BB67-4D37-ABF0-18704A2C011C}" ShortID="458689364">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -882,6 +891,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -901,6 +913,7 @@
 				</Sound>
 				<Sound Name="VO_humIntro3" ID="{77EBA619-BD59-4274-A205-255C74F9328C}" ShortID="1029555592">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -908,6 +921,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -927,6 +943,7 @@
 				</Sound>
 				<Sound Name="VO_doorOpen" ID="{9C6C3687-43D6-4D1B-9953-FAA46C8525EA}" ShortID="188482916">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -934,6 +951,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -953,6 +973,7 @@
 				</Sound>
 				<Sound Name="VO_powerOutage" ID="{07D52532-C62D-4272-95A8-C00D304A66B3}" ShortID="648027471">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -960,6 +981,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -979,6 +1003,7 @@
 				</Sound>
 				<Sound Name="VO_newInstructions" ID="{DF259619-EE03-476F-8F06-D2BE1C125288}" ShortID="670753581">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -986,6 +1011,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -1005,6 +1033,7 @@
 				</Sound>
 				<Sound Name="VO_newInstructionsOpt" ID="{183101C3-939E-4FFA-9306-67AF6534647E}" ShortID="976901134">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -1012,6 +1041,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -1031,6 +1063,7 @@
 				</Sound>
 				<Sound Name="VO_waitingRoom1" ID="{096F8BB4-3A44-4B27-95D8-2A77D801C2FD}" ShortID="152118194">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -1038,6 +1071,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -1057,6 +1093,7 @@
 				</Sound>
 				<Sound Name="VO_waitingRoom1_2" ID="{33D44AB4-43F9-40DA-9A5D-4E6933643DBC}" ShortID="424549636">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -1064,6 +1101,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -1083,6 +1123,7 @@
 				</Sound>
 				<Sound Name="VO_waitingRoom2" ID="{A8E76ECB-AF69-497B-9586-A83A54D22229}" ShortID="1006973680">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -1090,6 +1131,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -1109,6 +1153,7 @@
 				</Sound>
 				<Sound Name="VO_waitingRoom2_2" ID="{CA333209-6A24-4F84-AF6D-74B4D4112F5E}" ShortID="978692152">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -1116,6 +1161,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -1135,6 +1183,7 @@
 				</Sound>
 				<Sound Name="VO_playerDeath" ID="{775C4650-0678-4944-8BE0-809A530D51C8}" ShortID="1013277651">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -1142,6 +1191,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -1161,6 +1213,7 @@
 				</Sound>
 				<Sound Name="VO_playerVictory" ID="{43F36AC7-99D6-4AFB-8E52-F5AC1DA28551}" ShortID="381186926">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -1168,6 +1221,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -1187,6 +1243,7 @@
 				</Sound>
 				<Sound Name="VO_playerVictory2" ID="{43204E3D-9D81-4AE0-857C-806DF609FF79}" ShortID="237452982">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
@@ -1194,6 +1251,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
 						</Reference>
@@ -1209,6 +1269,122 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="VO_playerVictory2" ID="{01D94881-41F3-4C94-9EA1-1EDC923257D4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Loud Crash (LPF)" ID="{D3D44E77-A49F-41BE-8CE7-E7E757B1CE59}" ShortID="153264339">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Loud Crash (LPF)" ID="{14641A60-373B-431D-B427-8841AD5C6289}" ShortID="955830675">
+							<Language>SFX</Language>
+							<AudioFile>Loud Crash (LPF).wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Loud Crash (LPF)" ID="{14641A60-373B-431D-B427-8841AD5C6289}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Metal Creaking Soundscape" ID="{FA692002-F758-49CE-8A33-E18F31186EF8}" ShortID="582164092">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Metal Creaking Soundscape" ID="{D4A24D95-BA1E-40F3-A41D-0604B6A1FCC4}" ShortID="175300878">
+							<Language>SFX</Language>
+							<AudioFile>Metal Creaking Soundscape.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Metal Creaking Soundscape" ID="{D4A24D95-BA1E-40F3-A41D-0604B6A1FCC4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Thumping (LPF)" ID="{19B33EDD-08E0-434D-B01B-9A4094631B7F}" ShortID="691869000">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Thumping (LPF)" ID="{F606C9EA-F159-48FE-8E82-661EF4D9E590}" ShortID="304596066">
+							<Language>SFX</Language>
+							<AudioFile>Thumping (LPF).wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Thumping (LPF)" ID="{F606C9EA-F159-48FE-8E82-661EF4D9E590}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="VO_LoudCrash" ID="{F220DB15-26C0-4635-B9FD-02A39E3AD677}" ShortID="895827450">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="VO_LoudCrash" ID="{22303CF7-33FD-4B69-9498-B093C45A6035}" ShortID="254508173">
+							<Language>SFX</Language>
+							<AudioFile>VO_LoudCrash.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="VO_LoudCrash" ID="{22303CF7-33FD-4B69-9498-B093C45A6035}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="VO_Thumping" ID="{83179E50-E7FE-473F-96A9-1D46929B86DB}" ShortID="821052422">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" WorkUnitID="{232ADEA8-68C8-4408-AD1A-4D0D11BD62F9}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="VO_Thumping" ID="{AC695FD7-ABEB-4BA4-93C4-6411A04C39DD}" ShortID="390536320">
+							<Language>SFX</Language>
+							<AudioFile>VO_Thumping.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="VO_Thumping" ID="{AC695FD7-ABEB-4BA4-93C4-6411A04C39DD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
