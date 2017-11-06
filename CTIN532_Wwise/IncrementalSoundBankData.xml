@@ -3,32 +3,34 @@
 	<Platform GUID="{15055DC0-08EA-4543-A775-699656B8EF57}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Ambience" Hash="1978453144" Timestamp="131511372881422440"/>
-				<File Name="Effects" Hash="2161120610" Timestamp="131541627861252220"/>
+				<File Name="Ambience" Hash="1978453144" Timestamp="131544303302032908"/>
+				<File Name="Ambience_DR" Hash="3477448998" Timestamp="131544312826223431"/>
+				<File Name="Effects" Hash="680996652" Timestamp="131544302828472889"/>
 				<File Name="Footsteps" Hash="3727015415" Timestamp="131511344146036584"/>
 				<File Name="Init" Hash="898061812" Timestamp="131541581926284132"/>
-				<File Name="VOs" Hash="1353446029" Timestamp="131541659219651016"/>
+				<File Name="VOs" Hash="2591126726" Timestamp="131544312825242721"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="503606062" Timestamp="131541659219791392"/>
+				<File Name="" Hash="629191112" Timestamp="131544312826355859"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{BD52FE50-EBCC-4FBC-A0A5-46622CC30E21}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Ambience" Hash="1978453144" Timestamp="131511372883748636"/>
-				<File Name="Effects" Hash="2161120610" Timestamp="131541627869193847"/>
+				<File Name="Ambience" Hash="1978453144" Timestamp="131544303314192612"/>
+				<File Name="Ambience_DR" Hash="3477448998" Timestamp="131544312844144878"/>
+				<File Name="Effects" Hash="680996652" Timestamp="131544302841914276"/>
 				<File Name="Footsteps" Hash="3727015415" Timestamp="131511344247306172"/>
 				<File Name="Init" Hash="3808212186" Timestamp="131541581932470429"/>
-				<File Name="VOs" Hash="1353446029" Timestamp="131541659222750610"/>
+				<File Name="VOs" Hash="2591126726" Timestamp="131544312834948738"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="856940484" Timestamp="131541659222871134"/>
+				<File Name="" Hash="1412825586" Timestamp="131544312844280236"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

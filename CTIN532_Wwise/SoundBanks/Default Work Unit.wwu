@@ -12,14 +12,12 @@
 				</SoundBank>
 				<SoundBank Name="Effects" ID="{0D85B32D-890D-43FE-B20F-E0C413126E60}">
 					<ObjectInclusionList>
-						<ObjectRef Name="WR1_Thumping" ID="{45E37B2D-C711-4043-BB8D-145CD5FB058F}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="EyeScan_Start" ID="{A371DDCA-7383-424A-802B-044B39F062C3}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Success" ID="{A778DAD9-B74F-4312-8CC4-9F1CA2EF9979}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="EyeScan_Done" ID="{1CC96690-FF46-4323-B7A8-2238983A1F7F}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PowerOutage" ID="{2CDEE171-1267-45D4-85A8-058B0D539E26}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging_Stop" ID="{BF3293E6-F4EE-49FE-AAEF-97D84B7133EA}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="EyeScan_Stop" ID="{394867C2-ED16-4A3E-9EEA-E6DEE437072B}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="WR2_Crash" ID="{99904E10-9482-4BD4-A546-FCC65E62C249}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging" ID="{E4D9BD27-5EE5-4DFE-9BE4-DD63349C509C}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging_Pause" ID="{366D1289-29A6-4ED9-8743-CB83A5AFF310}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
@@ -40,18 +38,21 @@
 						<ObjectRef Name="VO_PowerOutage" ID="{0FB45EB4-E8E3-4058-8FE4-0D3B04B2B576}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_WaitingRoom1" ID="{EB477A4D-86F6-4146-8159-DB0E361CB7ED}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_Welcome" ID="{928907EC-C43D-422E-BC33-89DBC35295E9}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="VO_WaitingRoom1_2" ID="{E0339C31-F8DE-4330-AFF6-937819606940}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="VO_WaitingRoom2_2" ID="{A35134DE-BD15-4367-97D2-DB23CBEFC389}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_EyeScan" ID="{C071FBF6-1B32-4665-ABC9-8879F9237BD0}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_WaitingRoom2" ID="{23DB5947-D817-4820-97CC-FE535DE2A346}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_DoorOpen" ID="{5AC06B01-F52B-499D-80E8-7F613FE1981A}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_HumIntro" ID="{51A8AE50-33EA-4ACA-A500-559EEDB83285}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="VO_WR2_Crash" ID="{421AF867-78BB-4B34-BD1C-FF799EBCF1AF}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_NewInstructions" ID="{EA79303B-A66B-4B5D-8D78-CF0BD83C0386}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_PlayerDeath" ID="{6E29B305-1D54-4B89-9BC4-CDD0DD8B6AD1}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_NewInstructionsOpt" ID="{527FD8B4-73CC-4C8E-84F1-2C43863AC7BE}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="VO_WR1_Thumping" ID="{3997B6C8-79C7-4D09-8AB2-131991B81A9E}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_HumDoor" ID="{1AA1A771-C58C-4E4E-9826-15850769ED95}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience_DR" ID="{A4F74DF9-568A-40A5-A6F7-952F84AD9EE8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DarkRoom_Ambience" ID="{15B3CE8F-D459-47B3-8F0C-F4961F047CF0}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

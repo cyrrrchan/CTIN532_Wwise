@@ -586,7 +586,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-17</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -616,6 +616,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Success" ID="{02A2598C-353F-453E-BB26-B07889A37410}" ShortID="68482501">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
@@ -638,7 +645,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-17</Value>
+								<Value>-24</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -664,7 +671,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-13</Value>
+								<Value>-15</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1273,7 +1280,11 @@
 				</Sound>
 				<Sound Name="Loud Crash (LPF)" ID="{D3D44E77-A49F-41BE-8CE7-E7E757B1CE59}" ShortID="153264339">
 					<PropertyList>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1317,7 +1328,11 @@
 				</Sound>
 				<Sound Name="Thumping (LPF)" ID="{19B33EDD-08E0-434D-B01B-9A4094631B7F}" ShortID="691869000">
 					<PropertyList>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1385,6 +1400,85 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="VO_Thumping" ID="{AC695FD7-ABEB-4BA4-93C4-6411A04C39DD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Dark Atmosphere Thumps 1" ID="{CABC4FB8-2A0E-42B6-92A4-F8B52A1DA9C4}" ShortID="862615825">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dark Atmosphere Thumps 1" ID="{D93DC357-9F8D-46EB-BC6D-91E144B34DD4}" ShortID="983334">
+							<Language>SFX</Language>
+							<AudioFile>Dark Atmosphere Thumps 1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dark Atmosphere Thumps 1" ID="{D93DC357-9F8D-46EB-BC6D-91E144B34DD4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Dark Atmosphere Thumps 2" ID="{63421FF0-F54D-45C7-ADE1-FF0222D5D109}" ShortID="888013468">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dark Atmosphere Thumps 2" ID="{A7FB026A-11F3-4CAD-9E7B-829ACADA9660}" ShortID="199971378">
+							<Language>SFX</Language>
+							<AudioFile>Dark Atmosphere Thumps 2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dark Atmosphere Thumps 2" ID="{A7FB026A-11F3-4CAD-9E7B-829ACADA9660}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Dark Atmosphere Thumps 3" ID="{598A201D-6E71-4572-BF75-9385F89446DF}" ShortID="703775544">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dark Atmosphere Thumps 3" ID="{BD4B837D-93A3-4A12-BCE7-F6235E6F783B}" ShortID="391930185">
+							<Language>SFX</Language>
+							<AudioFile>Dark Atmosphere Thumps 3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dark Atmosphere Thumps 3" ID="{BD4B837D-93A3-4A12-BCE7-F6235E6F783B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Dark Atmosphere" ID="{A853CF2E-B104-4552-838C-5EB5D230E2D0}" ShortID="323808196">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dark Atmosphere" ID="{1280BB31-CAF9-4D2B-A023-D8C4C7DE1F52}" ShortID="492245548">
+							<Language>SFX</Language>
+							<AudioFile>Dark Atmosphere.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dark Atmosphere" ID="{1280BB31-CAF9-4D2B-A023-D8C4C7DE1F52}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

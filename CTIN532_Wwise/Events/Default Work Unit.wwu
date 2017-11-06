@@ -340,6 +340,17 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{845D7531-0091-48D1-9F39-24861248C4E8}" ShortID="591397657">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="32.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_newInstructionsOpt" ID="{183101C3-939E-4FFA-9306-67AF6534647E}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="VO_NewInstructionsOpt" ID="{527FD8B4-73CC-4C8E-84F1-2C43863AC7BE}">
@@ -368,13 +379,21 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VO_WaitingRoom1_2" ID="{E0339C31-F8DE-4330-AFF6-937819606940}">
-					<ChildrenList>
-						<Action Name="" ID="{A2BAB38B-22F1-4A34-B082-A145B8E9CED6}" ShortID="228533665">
+						<Action Name="" ID="{D471A23D-1590-434C-996E-D896BD9530F2}" ShortID="894265104">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="43"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thumping (LPF)" ID="{19B33EDD-08E0-434D-B01B-9A4094631B7F}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CDFFF7A5-3E0A-44A6-B5B5-42EA8B43ADC1}" ShortID="560775056">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="43.3"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -382,10 +401,10 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{942AA3B9-C63F-4750-88CE-25906BE358B0}" ShortID="740936998">
+						<Action Name="" ID="{135B9AFE-2CFC-4F19-B966-986AA3CF1629}" ShortID="509706845">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="3"/>
+								<Property Name="Delay" Type="Real64" Value="46"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -407,13 +426,21 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VO_WaitingRoom2_2" ID="{A35134DE-BD15-4367-97D2-DB23CBEFC389}">
-					<ChildrenList>
-						<Action Name="" ID="{662B9B08-CA3B-4A9A-9994-4017BDF8464A}" ShortID="499964321">
+						<Action Name="" ID="{56B6F5C4-0B4D-4305-A053-76CB61ECE042}" ShortID="113149526">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="17"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Loud Crash (LPF)" ID="{D3D44E77-A49F-41BE-8CE7-E7E757B1CE59}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ABC2C41D-D3EC-4823-AFA6-6835516D43BD}" ShortID="944220895">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="17.3"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -421,10 +448,10 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{DEE3499E-3EA6-4869-B774-76082DF8C95A}" ShortID="253957379">
+						<Action Name="" ID="{94EC27DD-1527-4CF4-A5D7-242FC3C1A82D}" ShortID="171661750">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="Delay" Type="Real64" Value="17.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -443,62 +470,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="VO_playerDeath" ID="{775C4650-0678-4944-8BE0-809A530D51C8}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VO_WR1_Thumping" ID="{3997B6C8-79C7-4D09-8AB2-131991B81A9E}">
-					<ChildrenList>
-						<Action Name="" ID="{7CCC383F-F3F0-4958-BBF2-315032128043}" ShortID="801995902">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="VO_Thumping" ID="{83179E50-E7FE-473F-96A9-1D46929B86DB}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VO_WR2_Crash" ID="{421AF867-78BB-4B34-BD1C-FF799EBCF1AF}">
-					<ChildrenList>
-						<Action Name="" ID="{F3A32EF6-AF91-4DDC-891F-60726D7E2B15}" ShortID="250048343">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="VO_LoudCrash" ID="{F220DB15-26C0-4635-B9FD-02A39E3AD677}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="WR1_Thumping" ID="{45E37B2D-C711-4043-BB8D-145CD5FB058F}">
-					<ChildrenList>
-						<Action Name="" ID="{81504232-2632-4188-8079-FDFAFACD58C7}" ShortID="70897177">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Thumping (LPF)" ID="{19B33EDD-08E0-434D-B01B-9A4094631B7F}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="WR2_Crash" ID="{99904E10-9482-4BD4-A546-FCC65E62C249}">
-					<ChildrenList>
-						<Action Name="" ID="{5B29687B-DB2D-4770-ABA0-A7731ABFDE25}" ShortID="828325426">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Loud Crash (LPF)" ID="{D3D44E77-A49F-41BE-8CE7-E7E757B1CE59}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -673,6 +644,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="VO_waitingRoom2_2" ID="{CA333209-6A24-4F84-AF6D-74B4D4112F5E}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DarkRoom_Ambience" ID="{15B3CE8F-D459-47B3-8F0C-F4961F047CF0}">
+					<ChildrenList>
+						<Action Name="" ID="{425E3CEE-72BC-4B77-A017-1DA7D08C6B4D}" ShortID="547141197">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dark Atmosphere" ID="{A853CF2E-B104-4552-838C-5EB5D230E2D0}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

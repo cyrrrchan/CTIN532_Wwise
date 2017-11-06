@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="VO" ID="{372A9ABE-6546-4ABA-A7F2-444B57B18A5C}" ShortID="347179794">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="30"/>
+						<Property Name="RadiusMax" Type="Real64" Value="75"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -22,7 +22,7 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>30</XPos>
+											<XPos>75</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
