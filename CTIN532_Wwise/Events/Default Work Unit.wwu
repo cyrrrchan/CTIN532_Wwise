@@ -340,17 +340,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{845D7531-0091-48D1-9F39-24861248C4E8}" ShortID="591397657">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="32.5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="VO_newInstructionsOpt" ID="{183101C3-939E-4FFA-9306-67AF6534647E}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="VO_NewInstructionsOpt" ID="{527FD8B4-73CC-4C8E-84F1-2C43863AC7BE}">
@@ -658,6 +647,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Dark Atmosphere" ID="{A853CF2E-B104-4552-838C-5EB5D230E2D0}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dragging" ID="{E1CD5948-7731-4D6B-A496-BCF171104238}">
+					<ChildrenList>
+						<Action Name="" ID="{B1BB65A8-F674-4579-812B-D25DBC9F6448}" ShortID="316325269">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dragging" ID="{AA0B822B-5641-4294-88CC-132C7B01BFA7}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ending" ID="{D111F53B-909A-4A9D-87E7-041E72946C2A}">
+					<ChildrenList>
+						<Action Name="" ID="{14CC978E-C762-47C1-9938-6C1D5DD19048}" ShortID="97717831">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending" ID="{3BB16188-D8BF-4CD7-8E2F-5DE30AAB790D}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

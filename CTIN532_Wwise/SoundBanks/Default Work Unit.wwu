@@ -18,6 +18,8 @@
 						<ObjectRef Name="PowerOutage" ID="{2CDEE171-1267-45D4-85A8-058B0D539E26}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging_Stop" ID="{BF3293E6-F4EE-49FE-AAEF-97D84B7133EA}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="EyeScan_Stop" ID="{394867C2-ED16-4A3E-9EEA-E6DEE437072B}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ending" ID="{D111F53B-909A-4A9D-87E7-041E72946C2A}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Dragging" ID="{E1CD5948-7731-4D6B-A496-BCF171104238}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging" ID="{E4D9BD27-5EE5-4DFE-9BE4-DD63349C509C}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging_Pause" ID="{366D1289-29A6-4ED9-8743-CB83A5AFF310}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

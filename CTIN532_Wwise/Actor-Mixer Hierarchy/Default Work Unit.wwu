@@ -586,7 +586,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-17</Value>
+								<Value>-23</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -619,7 +619,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-4</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1479,6 +1479,44 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Dark Atmosphere" ID="{1280BB31-CAF9-4D2B-A023-D8C4C7DE1F52}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Dragging" ID="{AA0B822B-5641-4294-88CC-132C7B01BFA7}" ShortID="112408107">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dragging" ID="{C12AA350-0884-48D4-9DA3-5BEC55D0EE72}" ShortID="401681654">
+							<Language>SFX</Language>
+							<AudioFile>Dragging.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dragging" ID="{C12AA350-0884-48D4-9DA3-5BEC55D0EE72}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ending" ID="{3BB16188-D8BF-4CD7-8E2F-5DE30AAB790D}" ShortID="1021373691">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ending" ID="{203D115C-5091-4772-8304-94AC8722E10D}" ShortID="561559066">
+							<Language>SFX</Language>
+							<AudioFile>Ending.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ending" ID="{203D115C-5091-4772-8304-94AC8722E10D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
