@@ -1482,6 +1482,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Dragging" ID="{AA0B822B-5641-4294-88CC-132C7B01BFA7}" ShortID="112408107">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
@@ -1501,6 +1508,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Ending" ID="{3BB16188-D8BF-4CD7-8E2F-5DE30AAB790D}" ShortID="1021373691">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
@@ -1517,6 +1531,35 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Ending" ID="{203D115C-5091-4772-8304-94AC8722E10D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="powerOutageEnd" ID="{41F390B3-18DE-4198-A0D3-A00CF2383936}" ShortID="1046848422">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9F7477CC-9DAD-4497-9515-B568D979B497}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A95910C-B9DC-4C01-8BBE-75E28B2EE30B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="powerOutage" ID="{00B35B51-52E6-4FB5-ACD4-B9EA6FF9A05A}" ShortID="111231071">
+							<PropertyList>
+								<Property Name="TrimBegin" Type="Real64" Value="1.65306375526401"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>powerOutage.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="powerOutage" ID="{00B35B51-52E6-4FB5-ACD4-B9EA6FF9A05A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
