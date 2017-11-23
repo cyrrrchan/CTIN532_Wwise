@@ -763,7 +763,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="VO_welcomeIntro" ID="{76314C90-27FF-4D8B-BB76-0CC95396E8AC}" ShortID="430579158">
 									<PropertyList>
-										<Property Name="TrimEnd" Type="Real64" Value="10.4005642614189"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>VO_welcomeIntro.wav</AudioFile>

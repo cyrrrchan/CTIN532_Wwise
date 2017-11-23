@@ -5,15 +5,15 @@
 			<Language ID="393239870">
 				<File Name="Ambience" Hash="1978453144" Timestamp="131544303302032908"/>
 				<File Name="Ambience_DR" Hash="3477448998" Timestamp="131544312826223431"/>
-				<File Name="Effects" Hash="2953088086" Timestamp="131550074732724535"/>
+				<File Name="Effects" Hash="2673472453" Timestamp="131559381892342293"/>
 				<File Name="Footsteps" Hash="3727015415" Timestamp="131511344146036584"/>
 				<File Name="Init" Hash="898061812" Timestamp="131541581926284132"/>
-				<File Name="VOs" Hash="1443734587" Timestamp="131550038551296858"/>
+				<File Name="VOs" Hash="207525566" Timestamp="131559382833507206"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3300359087" Timestamp="131550074732877754"/>
+				<File Name="" Hash="3372917792" Timestamp="131559382833647907"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -22,15 +22,15 @@
 			<Language ID="393239870">
 				<File Name="Ambience" Hash="1978453144" Timestamp="131544303314192612"/>
 				<File Name="Ambience_DR" Hash="3477448998" Timestamp="131544312844144878"/>
-				<File Name="Effects" Hash="2953088086" Timestamp="131550074734617142"/>
+				<File Name="Effects" Hash="2673472453" Timestamp="131559381897997816"/>
 				<File Name="Footsteps" Hash="3727015415" Timestamp="131511344247306172"/>
 				<File Name="Init" Hash="3808212186" Timestamp="131541581932470429"/>
-				<File Name="VOs" Hash="1443734587" Timestamp="131550038554758795"/>
+				<File Name="VOs" Hash="207525566" Timestamp="131559382838113736"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3948495217" Timestamp="131550074734747729"/>
+				<File Name="" Hash="652302466" Timestamp="131559382838229041"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="80">
-	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1983938461" DateHigh="30628879"/>
+	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2408353373" DateHigh="30628888"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Attenuations\Default Work Unit.wwu" DateLow="3136150112" DateHigh="30628879"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1695453830" DateHigh="30619861"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1695657128" DateHigh="30619861"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1695682456" DateHigh="30619861"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1695712601" DateHigh="30619861"/>
-	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\CTIN532_Wwise.Crystal.wsettings" DateLow="100621485" DateHigh="30628882"/>
+	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\CTIN532_Wwise.Crystal.wsettings" DateLow="2219811415" DateHigh="30628895"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\CTIN532_Wwise.wproj" DateLow="761005722" DateHigh="30626911"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1695737579" DateHigh="30619861"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Effects\Default Work Unit.wwu" DateLow="1695762406" DateHigh="30619861"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Effects\Factory Effects.wwu" DateLow="1695822857" DateHigh="30619861"/>
-	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Events\Default Work Unit.wwu" DateLow="608707739" DateHigh="30628880"/>
+	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Events\Default Work Unit.wwu" DateLow="4020738851" DateHigh="30628884"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1695888007" DateHigh="30619861"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1703369934" DateHigh="30619861"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1703395330" DateHigh="30619861"/>
@@ -20,7 +20,7 @@
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Presets\Default Work Unit.wwu" DateLow="1712941360" DateHigh="30619861"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Queries\Default Work Unit.wwu" DateLow="1712976458" DateHigh="30619861"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Queries\Factory Queries.wwu" DateLow="1713021796" DateHigh="30619861"/>
-	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1656788874" DateHigh="30628879"/>
+	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="4020817611" DateHigh="30628884"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1713106804" DateHigh="30619861"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\States\Default Work Unit.wwu" DateLow="1713136884" DateHigh="30619861"/>
 	<ValidationCacheItem File="F:\School\USC\CTIN 532\GitHub\CTIN532_Wwise\CTIN532_Wwise\Switches\Default Work Unit.wwu" DateLow="1713177266" DateHigh="30619861"/>
