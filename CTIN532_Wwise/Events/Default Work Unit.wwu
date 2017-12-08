@@ -19,82 +19,23 @@
 				</Event>
 				<Event Name="Room" ID="{AC5CC2C4-91CD-4A08-A154-53B1E6A3779A}">
 					<ChildrenList>
-						<Action Name="" ID="{D53A5B17-1AF8-433F-BE5D-1DF23548183F}" ShortID="48292058">
+						<Action Name="" ID="{A82200DD-ED17-47A4-8F12-FE827FD6D21F}" ShortID="640329511">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="HeatVent" ID="{B245F91A-CEE0-47D6-BFD0-AF48F4325BA0}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+									<ObjectRef Name="Electricity" ID="{03645D9A-C696-484C-A056-C0FC760D3E47}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{00BAFC46-53E9-41F3-A464-4B922EDBBAB5}" ShortID="173189804">
+						<Action Name="" ID="{17334125-416D-485E-B696-104AC5BE01F0}" ShortID="176620727">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RoomTone" ID="{D875BF80-2B90-4DD1-9EE6-245C0524338D}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{49F3E0D6-092E-47A4-8C62-C09D802C0D74}" ShortID="436472300">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Hvac" ID="{4DFC2013-8318-4845-87A8-F8764E08F826}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Jump" ID="{76AC0F28-33B4-4085-BE6F-89B80BC71CD2}">
-					<ChildrenList>
-						<Action Name="" ID="{454B7585-9CED-4C4B-AF2B-BF174126B07F}" ShortID="55759832">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footsteps_Jump" ID="{B936DA6F-AFE2-430B-BBEE-2507E5FBC26B}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{79690F7E-CDB3-428E-9C9E-F0B11D29F7C5}" ShortID="23286040">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="4"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{96D2B2C7-EA60-431C-A8D2-89302170AD3C}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Landing" ID="{4C87D99D-606E-4032-8E61-A0F21645E9A4}">
-					<ChildrenList>
-						<Action Name="" ID="{5D4EB478-B82E-4768-B514-0B7CEA0F8340}" ShortID="74901302">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footsteps_Landing" ID="{DFD69E4C-0063-4049-8747-1AA0E6EE7F57}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{4B65B63F-FC17-4649-819F-C3EFD024ECB6}" ShortID="195532272">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="5"/>
-								<Property Name="Delay" Type="Real64" Value="0.1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{96D2B2C7-EA60-431C-A8D2-89302170AD3C}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+									<ObjectRef Name="Robot Cicada" ID="{2F9FB2EF-68A8-4914-AB15-906B9E46F934}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -337,20 +278,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="VO_newInstructions" ID="{DF259619-EE03-476F-8F06-D2BE1C125288}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VO_NewInstructionsOpt" ID="{527FD8B4-73CC-4C8E-84F1-2C43863AC7BE}">
-					<ChildrenList>
-						<Action Name="" ID="{1075E09D-56F7-476E-8EF8-C2A1755DFFAA}" ShortID="532645852">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="VO_newInstructionsOpt" ID="{183101C3-939E-4FFA-9306-67AF6534647E}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -689,6 +616,69 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="powerOutageEnd" ID="{41F390B3-18DE-4198-A0D3-A00CF2383936}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Room_Stop" ID="{C2D7D4C3-C07F-4D17-BC30-9D98366081F4}">
+					<ChildrenList>
+						<Action Name="" ID="{11799700-2BDB-4FC2-A95F-378C53B28075}" ShortID="105551972">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot Cicada" ID="{2F9FB2EF-68A8-4914-AB15-906B9E46F934}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{141C2313-CF04-4C7B-9857-3F584567D364}" ShortID="329879461">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Electricity" ID="{03645D9A-C696-484C-A056-C0FC760D3E47}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Room_PowerOut" ID="{4BCF4E79-5FEC-4599-96E7-EA98EEE10EA6}">
+					<ChildrenList>
+						<Action Name="" ID="{01E76158-B2CC-4332-AD30-7A91CF3C2D58}" ShortID="9584567">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot Cicada_Powerout" ID="{8BBBEB37-2B8E-4C77-84D4-48D37F1030C2}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3E6AB18B-4F09-40E0-9D4D-1468EBDF6908}" ShortID="828606551">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Electric Sparks" ID="{21538B97-882C-4F77-A551-B2E32B8244CF}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F65ACE6B-3C3B-4765-8EA3-55E520999DAA}" ShortID="145391554">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Electric Sparks 2" ID="{58379656-C85F-43EC-A74F-CCBF2A430E43}" WorkUnitID="{DE3CD1C6-B9E6-4CDD-8CD0-C8BB78AA1D9F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

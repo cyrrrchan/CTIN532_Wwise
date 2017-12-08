@@ -16,10 +16,12 @@
 						<ObjectRef Name="Success" ID="{A778DAD9-B74F-4312-8CC4-9F1CA2EF9979}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="EyeScan_Done" ID="{1CC96690-FF46-4323-B7A8-2238983A1F7F}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PowerOutageEnd" ID="{B094C758-0DF4-44B8-9EBB-0DC219DF4675}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Room_PowerOut" ID="{4BCF4E79-5FEC-4599-96E7-EA98EEE10EA6}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PowerOutage" ID="{2CDEE171-1267-45D4-85A8-058B0D539E26}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging_Stop" ID="{BF3293E6-F4EE-49FE-AAEF-97D84B7133EA}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="EyeScan_Stop" ID="{394867C2-ED16-4A3E-9EEA-E6DEE437072B}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ending" ID="{D111F53B-909A-4A9D-87E7-041E72946C2A}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Room_Stop" ID="{C2D7D4C3-C07F-4D17-BC30-9D98366081F4}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Dragging" ID="{E1CD5948-7731-4D6B-A496-BCF171104238}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging" ID="{E4D9BD27-5EE5-4DFE-9BE4-DD63349C509C}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Charging_Pause" ID="{366D1289-29A6-4ED9-8743-CB83A5AFF310}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
@@ -29,8 +31,6 @@
 				</SoundBank>
 				<SoundBank Name="Footsteps" ID="{7A653833-BB06-44CF-A556-9FF4E7DBA008}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Landing" ID="{4C87D99D-606E-4032-8E61-A0F21645E9A4}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Jump" ID="{76AC0F28-33B4-4085-BE6F-89B80BC71CD2}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Footsteps" ID="{D2C1E97F-640E-4FCD-B856-7DFB40811855}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -47,7 +47,6 @@
 						<ObjectRef Name="VO_HumIntro" ID="{51A8AE50-33EA-4ACA-A500-559EEDB83285}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_NewInstructions" ID="{EA79303B-A66B-4B5D-8D78-CF0BD83C0386}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_PlayerDeath" ID="{6E29B305-1D54-4B89-9BC4-CDD0DD8B6AD1}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="VO_NewInstructionsOpt" ID="{527FD8B4-73CC-4C8E-84F1-2C43863AC7BE}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VO_HumDoor" ID="{1AA1A771-C58C-4E4E-9826-15850769ED95}" WorkUnitID="{408076C9-3094-43A1-B3C8-8A5B72236B2A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

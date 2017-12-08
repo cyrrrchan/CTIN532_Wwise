@@ -3,34 +3,34 @@
 	<Platform GUID="{15055DC0-08EA-4543-A775-699656B8EF57}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Ambience" Hash="1978453144" Timestamp="131544303302032908"/>
+				<File Name="Ambience" Hash="37661122" Timestamp="131571945911834212"/>
 				<File Name="Ambience_DR" Hash="3477448998" Timestamp="131544312826223431"/>
-				<File Name="Effects" Hash="2673472453" Timestamp="131559381892342293"/>
-				<File Name="Footsteps" Hash="3727015415" Timestamp="131511344146036584"/>
+				<File Name="Effects" Hash="4055737831" Timestamp="131571947982349564"/>
+				<File Name="Footsteps" Hash="1232002631" Timestamp="131571950118474161"/>
 				<File Name="Init" Hash="898061812" Timestamp="131541581926284132"/>
-				<File Name="VOs" Hash="207525566" Timestamp="131559382833507206"/>
+				<File Name="VOs" Hash="3856192366" Timestamp="131571946828351302"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3372917792" Timestamp="131559382833647907"/>
+				<File Name="" Hash="946311817" Timestamp="131571950118609850"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{BD52FE50-EBCC-4FBC-A0A5-46622CC30E21}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Ambience" Hash="1978453144" Timestamp="131544303314192612"/>
+				<File Name="Ambience" Hash="37661122" Timestamp="131571945913537779"/>
 				<File Name="Ambience_DR" Hash="3477448998" Timestamp="131544312844144878"/>
-				<File Name="Effects" Hash="2673472453" Timestamp="131559381897997816"/>
-				<File Name="Footsteps" Hash="3727015415" Timestamp="131511344247306172"/>
+				<File Name="Effects" Hash="4055737831" Timestamp="131571947984423110"/>
+				<File Name="Footsteps" Hash="1232002631" Timestamp="131571950119161465"/>
 				<File Name="Init" Hash="3808212186" Timestamp="131541581932470429"/>
-				<File Name="VOs" Hash="207525566" Timestamp="131559382838113736"/>
+				<File Name="VOs" Hash="3856192366" Timestamp="131571946833140972"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="652302466" Timestamp="131559382838229041"/>
+				<File Name="" Hash="1958509963" Timestamp="131571950119296787"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
